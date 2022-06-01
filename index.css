@@ -1,0 +1,115 @@
+@import url(//db.onlinewebfonts.com/c/33b3ddf9911274703552df95bc1b60de?family=Bauhaus+Md+BT);
+body{
+    background-color: beige;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.scpfoundation{  
+    font-family: 'Bauhaus Md BT';
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #aaa;
+    border-color: black;
+    display: inline-block;
+    position: relative;
+    left: 5vh;
+    top: -8vh;
+    background-color: beige;
+    
+}
+
+.scpfoundation1{
+    font-family: 'Bauhaus Md BT';
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #aaa;
+    border-color: black;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    left: 280px;
+    top: 200px;
+    width: 300px;
+    text-align: center;
+    background-color: beige;
+}
+.search{
+    position: relative;
+    left: 40%;
+    bottom: 73px;
+    border-radius: 7px;
+}
+
+
+.textscp{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-family: 'Bauhaus Md BT';
+    font-size:22px;
+    text-shadow: 4px 4px 4px #aaa;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.links{
+    font-family: 'Bauhaus Md BT';
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: blue;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar{
+    font-size: 25px;
+    background-color: beige;
+    width: 600px;
+    text-align: center;
+    left: 1200px;
+    top: -150px;
+    position: relative;
+    line-height: 50px;
+}
+
+.navbar ul li{ 
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+li {
+    font-family: 'Bauhaus Md BT';
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: blue;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+}
